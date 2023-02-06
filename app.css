@@ -1,0 +1,19 @@
+#jtk-demo-container {
+    display:flex;
+    width:100vw;
+    height:100vh;
+}
+
+#canvas {
+    flex:0 0 75%;
+    height:100%;
+}
+
+.jtk-surface {
+    height:100%;
+}
+
+#rhs {
+    display:flex;
+    flex-direction: column;
+}

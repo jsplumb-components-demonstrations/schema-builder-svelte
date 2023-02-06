@@ -1,0 +1,21 @@
+{
+  "name": "jsplumbtoolkit-svelte-schema-builder",
+  "version": "1.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist;npx rollup -c"
+  },
+  "author": "jsPlumb <hello@jsplumbtoolkit.com> (https://components.jsplumbtoolkit.com)",
+  "license": "Commercial",
+  "dependencies": {
+    "svelte": "^3.0.0",
+    "@jsplumb-components/schema": "file:../../dist/schema/jsplumb-components-schema.tgz",
+    "@jsplumb-components/schema-svelte": "file:../../dist/schema-svelte/jsplumb-components-schema-svelte.tgz"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "*",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup": "^2.26.11"
+  }
+}
